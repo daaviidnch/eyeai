@@ -37,5 +37,3 @@ graph TD;
     Frontend -->|HTTP| Backend[API en Google Cloud Run]
     Backend -->|YOLOv5| Resultado[Imagen/Video Procesado]
     Resultado --> Frontend
-
-
